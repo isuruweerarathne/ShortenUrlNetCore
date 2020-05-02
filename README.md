@@ -4,9 +4,7 @@ A basic implementation of an URL shortener web application using ASP.NET Core MV
 
 # Algorithm
 
-So, how works an URL shortener?
-
-Basicaly, we store the URL in database, so it has a numeric ID, an we convert it to a another base in order to have a "stringified" version of the ID.
+We store the URL in database, so it has a numeric ID, an we convert it to a another base in order to have a "stringified" version of the ID.
 
 When we have the short URL the process is:
 - convert the "stringified" ID to the numeric ID.
